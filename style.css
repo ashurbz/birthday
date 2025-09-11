@@ -261,7 +261,9 @@ body {
 }
 .content .right .image img{
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    position: relative;
+    top: 216px;
 
 }
 .cricle{
